@@ -1,0 +1,6 @@
+1,用stylus之前，要安装stylus和stylus-loader，这个是vue-cli不会集成的。
+2，在build->webpack.base.conf.js 中，resolve对象中的alias（配置别名），这样可以方便在开发中缩短文件的路径，定义key值，对应的value可以直接当绝对路径使用
+3，babel-runtime：对es的语法进行转义，（规则不详）
+   fastclick：解决300毫秒的延迟问题
+   babel-polyfill:对es6的api进行转义
+4，使用字体图标时报loader的错
